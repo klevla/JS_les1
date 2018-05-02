@@ -35,10 +35,11 @@ console.log (res);
 //Объект.Задачи
 
 let sample = {
-    product:'iphone',
-    price: res,
-    currency: 'dollar'
+    product: 'iphone'
 };
+    sample.price = res;
+    sample.currency = 'dollar';
+
 sample.details = {
     model: '5s',
     color: 'red'
